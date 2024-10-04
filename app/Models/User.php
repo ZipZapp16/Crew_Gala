@@ -18,10 +18,19 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'secondLastname',
+        'secondLastname',
         'email',
         'password',
+        'dateAdmission',
+        'phone',
+        'profilePicture',
+        'loginOption',
+        'firebaseToken',
+        'role',
+        'enabled',
     ];
-
+    
     /**
      * The attributes that should be hidden for serialization.
      *
